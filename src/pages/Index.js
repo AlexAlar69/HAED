@@ -18,8 +18,7 @@ import Card from 'react-bootstrap/Card';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { Link } from "react-router-dom";
-
-function Index(){
+const Index = () =>{
     //Funciones para mostrar/ocutar el contenido de las fichas de los cuerpos académicos
     const contenidoTIC = () =>{
     

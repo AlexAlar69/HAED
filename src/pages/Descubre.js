@@ -2,6 +2,10 @@ import React from 'react'
 import Table from 'react-bootstrap/Table'
 import "../estilos/Descubre.css"
 import "bootstrap/dist/css/bootstrap.min.css"
+import dimensiones from "../imagenes/dimensiones.jpeg";
+import habilidades from "../imagenes/habilidades.jpeg";
+import piramide from "../imagenes/piramide_miller.png";
+import rasgos from "../imagenes/rasgos_practica_reflexiva.png";
 
 export default function Descubre() {
   return (
@@ -62,7 +66,7 @@ export default function Descubre() {
               <div class="blog_post">
                 <img
                   class="img-teoria"
-                  src="http://127.0.0.1/sistemaHaed/Assets/images/descubre/piramide_miller.png"
+                  src={piramide}
                   alt=""
                 />
                 <div class="blog_details">
@@ -99,7 +103,7 @@ export default function Descubre() {
               <div class="blog_post">
                 <img
                   class="img-teoria"
-                  src="http://127.0.0.1/sistemaHaed/Assets/images/descubre/dimensiones.jpeg"
+                  src={dimensiones}
                   alt=""
                 />
                 <div class="blog_details">
@@ -131,7 +135,7 @@ export default function Descubre() {
               <div class="blog_post">
                 <img
                   class="img-teoria"
-                  src="http://127.0.0.1/sistemaHaed/Assets/images/descubre/rasgos_practica_reflexiva.png"
+                  src={rasgos}
                   alt=""
                 />
                 <div class="blog_details">
@@ -162,7 +166,7 @@ export default function Descubre() {
               <div class="blog_post">
                 <img
                   class="img-teoria"
-                  src="http://127.0.0.1/sistemaHaed/Assets/images/descubre/habilidades.jpeg"
+                  src={habilidades}
                   alt=""
                 />
                 <div class="blog_details">

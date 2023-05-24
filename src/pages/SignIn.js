@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Button } from "react-bootstrap";
 import "../estilos/Login.css";
@@ -7,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 import "bootstrap/dist/css/bootstrap.min.css"
+
 
 
 function Sign(){
@@ -33,7 +35,7 @@ function Sign(){
                 <div class="col-sm-12 col-md-6 sign">
                     <h2>¿Ya tienes una cuenta?</h2>
                     <p>Para contestar la autoevaluación debes iniciar sesión, si ya tienes una cuenta da click en el botón Iniciar Sesión</p>
-                    <button>INICIAR SESIÓN</button>
+                   <Link to={"/Iniciar-sesion"}> <button>INICIAR SESIÓN</button> </Link>
                 </div>
                 <div class="col-sm-12 col-md-6 login">
                     <h2>Bienvenido</h2>
